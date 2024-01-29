@@ -1,0 +1,32 @@
+.not-found-img {
+  width: 200px;
+  height: 200px;
+}
+.not-found-container {
+  font-family: DM Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  line-height: 0.8;
+}
+
+.home-page-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #f7931e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+.not-found-para {
+  padding-bottom: 5px;
+}

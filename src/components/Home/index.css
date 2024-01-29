@@ -1,0 +1,270 @@
+.pagination {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.sort-icon {
+  /* padding-right: 2px; */
+  padding-top: 10px;
+  color: #475569;
+  font-size: 25px;
+  /* margin-bottom: 0px; */
+}
+.fliter-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.filter-icon {
+  color: #475569;
+  font-size: 28px;
+  margin: 0;
+}
+
+.filter-text {
+  margin: 0;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.filter-popup {
+  height: 100px;
+  width: 150px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+
+    border-radius: none;
+  }
+  /* .carousel-box {
+    margin-bottom: 0px;
+  } */
+
+  .slide-imgs {
+    height: 200px;
+    width: 100%;
+  }
+  .res-list-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  .text-center {
+    width: 90%;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .home-para {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sorting-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .home-heading {
+    font-family: DM Sans;
+    font-size: 24px;
+    /* font-weight: 700; */
+    /* line-height: 48px;
+  letter-spacing: 0px; */
+    text-align: left;
+    color: #183b56;
+    letter-spacing: 0px;
+    /* margin-bottom: 0px; */
+    /* padding-top: 30px; */
+    /* margin-right: 50px; */
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  .home-container {
+    padding: 10px;
+  }
+  .sort-text {
+    color: #64748b;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 4px;
+  }
+  .drop-down {
+    color: #64748b;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    
+  }
+  .hr-line {
+    border: 1px solid #cbd2d9;
+    width: 100%;
+  }
+  .fliter-box {
+    width: 150px;
+    margin-top: 0;
+  }
+
+  .filter-icon {
+    font-size: 24px;
+  }
+
+  .filter-text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  /* .filter-popup {
+    height: 80px;
+    width: 130px;
+  } */
+  
+}
+
+/* .slick-slide img {
+  margin: auto;
+} */
+
+.sort-option {
+  width: 100%;
+  height: 40px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #475569;
+  cursor: pointer;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selected {
+  background: #f1f5f9;
+  border-radius: 8px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurants-box {
+  /* max-height: 900px;
+  display: flex;
+  justify-content: center; */
+  width: 100%;
+}
+.res-list-items {
+  display: flex;
+  max-width: 1380px;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+}
+.text-center {
+  margin-top: 0px;
+}
+
+.home-para {
+  color: #64748b;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0px;
+  margin-right: 50px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    /* padding: 40px; */
+
+    /* margin: 50px; */
+    width: 1140px;
+    height: 320px;
+
+    border-radius: 8px;
+  }
+  .home-heading {
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #183b56;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    margin-right: 50px;
+  }
+  .home-container {
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 30px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .drop-down-box {
+    margin-left: 400px;
+  }
+  .drop-down {
+    outline: none;
+    border: none;
+    font-family: DM Sans;
+    font-size: 16px;
+  }
+  .hr-line {
+    border: 1px solid #cbd2d9;
+    width: 88%;
+  }
+  
+}
+
+.sorting-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.offers-list-item {
+  height: 100%;
+}
